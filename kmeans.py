@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-X = pd.read_csv('anime.csv')
+X = pd.read_csv('dataanime.csv')
 list_drop = ['anime_id','name']
 X.drop(list_drop, axis=1, inplace=True)
 X.dropna(inplace= True)
